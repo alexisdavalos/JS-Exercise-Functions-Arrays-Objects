@@ -333,7 +333,7 @@ function carMaker(odometer) {
     drive: function(distance){
      let updatedOdometer = distance + car.odometer;
      car.odometer = updatedOdometer;
-     return updatedOdometer;
+     return car.odometer;
       
     }
     
